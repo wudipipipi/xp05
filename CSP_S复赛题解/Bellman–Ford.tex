@@ -1,0 +1,358 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[heading,UTF8]{ctex}             % 中文支持
+\usepackage{geometry}                                       % 页面设置
+\usepackage{fancyhdr,lastpage}                              % 页眉页脚
+\usepackage{fontspec}                                       % 字体
+\usepackage{tabularx,multirow,booktabs}                     % 表格
+\usepackage{multicol}                                       % 分栏
+\usepackage{listings}                                       % 代码
+\usepackage{algorithm,algorithmicx,algpseudocode}           % 伪代码
+\usepackage{amsmath,amsthm,amsfonts,amssymb,bm}             % 数学公式
+\usepackage{epigraph}                                       % 引用
+\usepackage{hyperref}                                       % 超链接
+\usepackage{tikz}                                           % TikZ 画图
+\usepackage{tcolorbox}                                      % Color Box
+\usepackage{enumitem}                                       % 列表样式
+\usepackage{xeCJKfntef,xcolor}                              % 文字加点
+\usepackage{diagbox}
+
+
+
+\hypersetup{                                                % 超链接样式
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=cyan,
+}
+
+\usetikzlibrary{arrows.meta}                                % 附加箭头样式
+
+\tikzset{                                                   % TikZ 设置
+    global scale/.style={                                     % 整张图放缩
+        scale=#1,
+        every node/.append style={scale=#1}
+    }
+}
+
+\tcbset{                                                    % Color Box 样式
+    colback=white,
+    colframe=black,
+    boxrule=0.5pt
+}
+
+% \lstset{                                                    % 代码框格式设置
+%     breaklines = true,
+%     keepspaces = true,
+%     basicstyle = \ttfamily,
+%     numberstyle = \footnotesize\ttfamily\color{gray},
+%     numbers = left,
+%     columns = flexible,
+%     framexleftmargin = 0pt,
+%     xleftmargin = 12pt,
+%     numbersep = 10pt,
+%     keywordstyle = \color{black}, %\color{blue!70},
+%     commentstyle = \color{black}, %\color{green!70},
+%     frame = single,
+%     frameround = tttt,
+%     rulecolor = \color{blue},
+%     language = c++,
+%     escapeinside = {(*@}{@*)}
+% }
+
+% 样例的代码框格式设置 
+\lstdefinestyle{sample} {
+    breaklines = true,
+    keepspaces = true,
+    basicstyle = \ttfamily,
+    numberstyle = \footnotesize\ttfamily\color{gray},
+    numbers = left,
+    columns = flexible,
+    framexleftmargin = 0pt,
+    xleftmargin = 12pt,
+    numbersep = 10pt,
+    keywordstyle = \color{black}, %\color{blue!70},
+    commentstyle = \color{black}, %\color{green!70},
+    frame = single,
+    frameround = tttt,
+    rulecolor = \color{blue},
+    language = c++,
+    escapeinside = {(*@}{@*)}
+}
+
+\definecolor{mygreen}{RGB}{0,128,0}
+% 题解代码代码框格式设置
+\lstdefinestyle{code}{
+    breaklines = true,
+    keepspaces = true,
+    basicstyle = \ttfamily,
+    numberstyle = \footnotesize\ttfamily\color{gray},
+    keywordstyle = \color{blue!70}, 
+    commentstyle = \color{gray}, 
+    stringstyle = \color{mygreen},
+    numbers = left,
+    columns = flexible,
+    framexleftmargin = 0pt,
+    xleftmargin = 12pt,
+    numbersep = 10pt,
+    frame = single,
+    frameround = tttt,
+    rulecolor = \color{blue},
+    language = c++,
+    escapeinside = {(*@}{@*)},
+    showstringspaces = false
+}
+\xeCJKsetup{                                                % 文字下方加点样式
+    underdot/symbol = {\color{black}.}
+}
+
+\newcommand{\filename}[1]{{\textbf{\textit{#1}}}}           % 自定义文件名样式
+\newcommand{\myemph}[1]{{\textbf{\CJKunderdot{#1}}}}        % 自定义强调样式
+\ctexset{                                                   % 标题设置
+    section = {
+        format = \centering\Large\heiti,
+        numbering = true,
+        number = {},
+        aftername = {}
+    },
+    subsection = {
+        format = \fontsize{13pt}{\baselineskip}\heiti,
+        numbering = true,
+        number = {},
+        aftername = {【},
+        aftertitle = {】}
+    },
+    subsubsection = {
+        format = \myemph,
+        numbering = true,
+        number = {},
+        aftername = {}
+    }
+}
+
+\geometry{                                                  % 页面设置
+    a4paper,
+    left = 70pt,
+    right = 70pt,
+    top = 80pt,
+    bottom = 65pt,
+    footskip = 30pt
+}
+
+\floatname{algorithm}{算法}
+\renewcommand{\algorithmicrequire}{\textbf{输入：}}
+\renewcommand{\algorithmicensure}{\textbf{输出：}}
+
+\setmonofont{Consolas} [
+    Path = ./, 
+    Extension = .ttf,
+]              % 等宽字体
+
+
+\setlist[itemize]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=10pt}
+\setlist[enumerate]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=10pt}
+\setlist[itemize,1]{leftmargin=35pt}
+\setlist[enumerate,1]{leftmargin=35pt}
+
+\newcommand{\docTitle}{CSP-S算法模版文档}
+\newcommand{\docSecTitle}{}
+\newcommand{\docThiTitle}{}
+\newcommand{\docAuthor}{hezlik}
+\newcommand{\docDate}{年月日 $\sim$ }
+
+\newcommand{\fancyheadLeftText}{\docTitle}
+\newcommand{\fancyheadRightText}{\docThiTitle}
+
+\title{\docTitle}
+\author{\docAuthor}
+\date{\docDate}
+
+\hypersetup{
+    pdftitle={\docTitle},
+    pdfauthor={\docAuthor}
+}
+
+\makeatletter
+\renewcommand*\maketitle{                                   % 标题页格式设置
+    \begin{center}
+        {\LARGE \bfseries \@title \par}
+        {\Huge \heiti \docSecTitle \par}
+        {\LARGE \kaishu \docThiTitle \par}
+        {\large \@author \par}
+        {\large \heiti 时间：\@date \par}
+    \end{center}
+    \setcounter{footnote}{0}
+}
+\makeatother
+
+
+\begin{document}
+    \renewcommand\headrulewidth{0.5pt}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \fancyhead[L]{\footnotesize \fancyheadLeftText}
+    \fancyfoot[C]{\footnotesize 第 \thepage 页\quad 共 \pageref{LastPage} 页}
+    
+    \section{单源最短路$\&$判断负环(Bellman-Ford+SPFA)} % 大标题
+    \fancyhead[R]{\footnotesize \fancyheadRightText~单源最短路$\&$判断负环} % 页眉
+    
+    \subsection{应用范围}
+    
+    单源最短路指的是求解两点之间的最短距离，通常出现在图论题目当中。
+
+    常见的单源最短路算法有$Floyd$,$Bellman-Ford$,$Dijkstra$,本文主要介绍$Bellman-Ford$算法以及它的队列优化版本$SPFA$。
+
+    
+    \subsection{算法思路}
+    1、定义数组$Dist[i]$。$Dist[i]$代表了从起点到达点$i$的距离，并将它们初始化成$Inf$，表示不可达。
+    
+    2、定义一个操作：松弛操作。选取一个边$(u , v)$，利用到达$u$的距离来更新到达$v$的距离，即$min(Dist[v] , Dist[u] + len(u,v))$。
+
+    3、$Bellman-Ford$要做的就是每一轮都把每一条边松弛一遍，直到一轮中没有任何一个距离被更新为止。
+ \begin{lstlisting}[style = code]
+ while (flag) { 
+    // 枚举每个点
+    flag = false;
+    for (int i = 1; i <= n; i++) {
+        for (int j = 0; j < e[i].size(); j++) {
+            int nxt = e[i][j].to;
+            int val = e[i][j].val;
+            // i -> nxt: val;
+            if (dist[i] + val < dist[nxt]) {
+                flag = true;
+                dist[nxt] = min(dist[nxt], dist[i] + val);
+            }
+        }
+    }
+}\end{lstlisting}
+
+    4、由于一条简单路径最多只会经过$n-1$条边，故最多进行$n-1$轮，整体复杂度为$O(nm)$。
+
+    5、特别的，但如果从 $S$ 点出发，抵达一个负环时，松驰操作会无休止地进行下去。注意到前面的论证中已经说明了，对于最短路径存在的图，松驰操作最多只会执行 $n-1$ 轮，因此如果第 $n$ 轮循环时仍然存在能松驰的边，说明从 $S$ 点出发，能够抵达一个负环。
+
+    6、在$Bellman-Ford$算法中，我们每一轮都是把每条边都尝试松弛，接下来考虑从减少每一轮要松弛的边入手，优化复杂度。
+\newpage
+    7、我们会发现：只有在一轮中被松弛的点所延申出的边，才有可能在下一轮引发松弛操作。因此我们考虑用队列来维护\textbf{可能引发松弛操作的点}，就可以减少每一轮所需要松弛的边了。这就是$SPFA$算法的核心。
+     \begin{lstlisting}[style = code]
+    queue<int> q;
+    q.push(s);
+    dis[s] = 0;
+    while (!q.empty()) {
+        int now = q.front();
+        q.pop();
+        for (int i = 0; i < e[now].size(); i++) {
+            int nxt = e[now][i].to;
+            int val = e[now][i].val;
+            if (dis[now] + val < dis[nxt] ) {
+                q.push(nxt);
+                dis[nxt] = dis[now] + val;
+            }
+        }
+    }\end{lstlisting}
+    
+    8、$SPFA$同样也可以判断负环，只需记录最短路经过了多少条边，当经过了至少$n$条边时，说明$s$点可以抵达一个负环。
+    \newpage
+    \subsection{样例题意}
+输入的第一行是一个整数 $T$，表示测试数据的组数。对于每组数据的格式如下：
+
+第一行有两个整数，分别表示图的点数 $n$ 和接下来给出边信息的条数 $m$。
+
+接下来 $m$ 行，每行三个整数 $u$, $v$, $w$。
+ \subsection{样例 1 输入} % 样例使用style = sample
+
+\begin{lstlisting}[style = sample]
+2
+3 4
+1 2 2
+1 3 4
+2 3 1
+3 1 -3
+3 3
+1 2 3
+2 3 4
+3 1 -8
+\end{lstlisting}
+    
+    
+    \subsection{样例 1 输出}
+    
+\begin{lstlisting}[style = sample]
+NO
+YES
+\end{lstlisting}
+    
+
+    \newpage
+    \subsection{代码模版} 
+
+    \begin{lstlisting}[style = code]
+#include<bits/stdc++.h>
+using namespace std;
+int T, n, m, u, v, w;
+const int maxn = 1e5 + 10;
+struct node {
+    int to, val;
+};
+vector <node>  e[maxn];
+int dis[maxn];
+int cnt[maxn];//最短方案中，到达点i的边的个数
+bool in[maxn];
+void spfa(){
+    memset(dis, 0x3f3f, sizeof(dis));
+    memset(in, 0, sizeof(in));
+    memset(cnt, 0, sizeof(cnt));
+    queue <int> q;
+    q.push(1);
+    dis[1] = 0;
+    in[1] = true;
+    cnt[1] = 1;
+    while (!q.empty()){
+        u = q.front();
+        q.pop();
+        in[u] = false;
+        for (int i = 0; i < e[u].size(); i++){
+            v = e[u][i].to;
+            w = e[u][i].val;
+            if (dis[v] > dis[u] + w){
+                dis[v] = dis[u] + w;
+                if (!in[v]){
+                    cnt[v]++;
+                    q.push(v);
+                    in[v] = true;
+                    if (cnt[v] >= n){
+                        printf("YES\n");
+                        return;
+                    }
+                }
+            }
+        }
+    }
+    cout << "NO\n";
+}
+int main(){
+    cin >> T;
+    for (int  t = 0; t < T; t++){
+        cin >> n >> m;
+        for (int i = 1; i <= n; i++){
+            e[i].clear();
+        }
+        for (int i = 0; i < m; i++){
+            cin >> u >> v >> w;
+            e[u].push_back({v , w});
+            if (w >= 0){
+                e[v].push_back({u , w});
+            }
+        }
+        spfa();
+    }
+    return 0;
+}\end{lstlisting}
+    
+    
+    
+    
+
+    
+    
+\end{document}

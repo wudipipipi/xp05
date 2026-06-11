@@ -1,0 +1,160 @@
+\contentsline {chapter}{序}{i}{chapter*.1}%
+\contentsline {subsection}{\numberline {一}提高组算法模版}{i}{subsection.0.0.1}%
+\contentsline {subsection}{\numberline {二}初赛真题解析}{i}{subsection.0.0.2}%
+\contentsline {subsection}{\numberline {三}复赛真题解析}{ii}{subsection.0.0.3}%
+\contentsline {part}{第一部分\hspace {1em}提高组复赛解析}{1}{part.1}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}2020 CSP-S复赛解析}{3}{chapter.1}%
+\contentsline {section}{\numberline {}T1. 儒略日}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {一}题意简析}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{4}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {三}Case 1--3：逐日暴力模拟日期}{4}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {四}Case 4--8：预处理日期表并直接查询}{6}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {五}满分解法}{7}{subsection.1.1.5}%
+\contentsline {section}{\numberline {}T2. 动物园}{9}{section.1.2}%
+\contentsline {subsection}{\numberline {一}题意简析}{9}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{9}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {三}Case 1--8：枚举动物编号并检查饲料限制}{9}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {四}满分解法}{11}{subsection.1.2.4}%
+\contentsline {section}{\numberline {}T3. 函数调用}{13}{section.1.3}%
+\contentsline {subsection}{\numberline {一}题意简析}{13}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{13}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {三}Case 7,14：倒序处理单点加与全局乘}{13}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {四}Case 1--9：递归展开第三类函数调用}{15}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {五}满分解法}{18}{subsection.1.3.5}%
+\contentsline {section}{\numberline {}T4. 贪吃蛇}{24}{section.1.4}%
+\contentsline {subsection}{\numberline {一}题意简析}{24}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{24}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {三}Case 1--14：\colorbox {codebg}{\texttt {set}} 模拟最强最弱蛇}{24}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {四}满分解法}{28}{subsection.1.4.4}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}2021 CSP-S复赛解析}{33}{chapter.2}%
+\contentsline {section}{\numberline {}T1. 廊桥分配}{34}{section.2.1}%
+\contentsline {subsection}{\numberline {一}题意简析}{34}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{34}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {三}Case 1--4：直接枚举并模拟}{35}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {四}Case 5--8：枚举分配方案 + 堆模拟}{36}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {五}满分解法}{38}{subsection.2.1.5}%
+\contentsline {section}{\numberline {}T2. 括号序列}{40}{section.2.2}%
+\contentsline {subsection}{\numberline {一}题意简析}{40}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{40}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {三}Case 1--3：DFS 枚举所有填法}{41}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {四}Case 4--13：区间 DP}{43}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {五}满分解法：优化 \colorbox {codebg}{\texttt {ASB}} 转移}{47}{subsection.2.2.5}%
+\contentsline {section}{\numberline {}T3. 回文}{49}{section.2.3}%
+\contentsline {subsection}{\numberline {一}题意简析}{49}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{49}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {三}Case 1--7：暴力枚举操作序列}{50}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {四}满分解法}{51}{subsection.2.3.4}%
+\contentsline {section}{\numberline {}T4. 交通规划}{54}{section.2.4}%
+\contentsline {subsection}{\numberline {一}题意简析}{54}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{54}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {三}Case 1--12：最小割建模}{55}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {四}Case $k_i\le 2$：对偶图上的最短路}{59}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {五}满分解法}{64}{subsection.2.4.5}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}2022 CSP-S复赛解析}{69}{chapter.3}%
+\contentsline {section}{\numberline {}T1. 假期计划}{70}{section.3.1}%
+\contentsline {subsection}{\numberline {一}题意简析}{70}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{70}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {三}Case 1--8：直接枚举四个景点}{70}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {四}Case 1--14：枚举前三个景点}{72}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {五}满分解法：枚举中间两个景点}{74}{subsection.3.1.5}%
+\contentsline {section}{\numberline {}T2. 策略游戏}{76}{section.3.2}%
+\contentsline {subsection}{\numberline {一}题意简析}{76}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{76}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {三}Case 1--5：直接枚举双方选择}{77}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {四}特殊性质 1：所有数均为正数}{77}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {五}Case 1--12：按符号分类讨论}{79}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {六}满分解法：ST 表维护六类最值}{81}{subsection.3.2.6}%
+\contentsline {section}{\numberline {}T3. 星战}{83}{section.3.3}%
+\contentsline {subsection}{\numberline {一}题意简析}{83}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{83}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {三}Case 1--8：直接模拟边状态}{83}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {四}Case 9--10：只维护出度}{85}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {五}满分做法}{86}{subsection.3.3.5}%
+\contentsline {section}{\numberline {}T4. 数据传输}{88}{section.3.4}%
+\contentsline {subsection}{\numberline {一}题意简析}{88}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{88}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {三}Case 6--7，12--13：$k=1$}{89}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {四}Case 1--5：点数很小，直接建图}{91}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {五}Case 1--11，14--16，20--22：按询问临时建图}{93}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {六}Case 17--19：$k=2$，矩阵优化路径 DP}{97}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {七}Case 23--25：$k=3$，扩展状态的矩阵 DP}{102}{subsection.3.4.7}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}2023 CSP-S复赛解析}{105}{chapter.4}%
+\contentsline {section}{\numberline {}T1. 密码锁}{106}{section.4.1}%
+\contentsline {subsection}{\numberline {一}题意简析}{106}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{106}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {三}满分解法一：直接枚举正确密码}{106}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {四}满分解法二：反向枚举候选密码}{108}{subsection.4.1.4}%
+\contentsline {section}{\numberline {}T2. 消消乐}{109}{section.4.2}%
+\contentsline {subsection}{\numberline {一}题意简析}{109}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{109}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {三}Case 1--7：暴力枚举区间}{109}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {四}Case 1--10：固定左端点，向右扩展}{110}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {五}Case 11--12：利用随机数据性质}{111}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {六}满分解法一：哈希维护栈状态}{112}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {七}满分解法二：动态规划}{114}{subsection.4.2.7}%
+\contentsline {section}{\numberline {}T3. 结构体}{116}{section.4.3}%
+\contentsline {subsection}{\numberline {一}题意简析}{116}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{116}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {三}样例解释}{117}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {四}Case 1--3：只有基础类型}{118}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {五}Case 4--13：没有结构体嵌套}{119}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {六}满分解法}{124}{subsection.4.3.6}%
+\contentsline {section}{\numberline {}T4. 种树}{126}{section.4.4}%
+\contentsline {subsection}{\numberline {一}题意简析}{126}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{126}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {三}Case 1, 5--8：所有结点满足 $c_i=0$}{127}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {四}满分解法}{129}{subsection.4.4.4}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}2024 CSP-S复赛解析}{133}{chapter.5}%
+\contentsline {section}{\numberline {}T1. 决斗}{134}{section.5.1}%
+\contentsline {subsection}{\numberline {一}题意简析}{134}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{134}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {三}满分解法：排序 + 双指针贪心}{134}{subsection.5.1.3}%
+\contentsline {section}{\numberline {}T2. 超速检测}{136}{section.5.2}%
+\contentsline {subsection}{\numberline {一}题意简析}{136}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{136}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {三}Case 1--2：直接暴力}{136}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {四}特殊性质 A、B、C}{138}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {五}满分解法：二分求区间 + 区间选点覆盖}{139}{subsection.5.2.5}%
+\contentsline {section}{\numberline {}T3. 染色}{142}{section.5.3}%
+\contentsline {subsection}{\numberline {一}题意简析}{142}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{142}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {三}Case 1--4：枚举每个位置的颜色}{142}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {四}Case 5--10：记录另一种颜色的最后一个数字}{144}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {五}Case 13--15：沿用 $O(nA)$，按值域选实现}{146}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {六}满分解法：从值域状态转到上一个相同位置}{146}{subsection.5.3.6}%
+\contentsline {section}{\numberline {}T4. 擂台游戏}{148}{section.5.4}%
+\contentsline {subsection}{\numberline {一}题意简析}{148}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{148}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {三}Case 4--5，11--12：前缀长度恰为 $2$ 的幂次}{149}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {四}满分解法：转化为每位选手的可获胜区间}{152}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {五}代码}{154}{subsection.5.4.5}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}2025 CSP-S复赛解析}{159}{chapter.6}%
+\contentsline {section}{\numberline {}T1. 社团招新}{159}{section.6.1}%
+\contentsline {subsection}{\numberline {一}题意简析}{159}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{159}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {三}Case 1--11：三维 DP}{159}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {四}满分解法：贪心 + 优先队列}{161}{subsection.6.1.4}%
+\contentsline {subsection}{\numberline {五}代码}{162}{subsection.6.1.5}%
+\contentsline {section}{\numberline {}T2. 道路修复}{164}{section.6.2}%
+\contentsline {subsection}{\numberline {一}题意简析}{164}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{164}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {三}Case 1--4：原图上的最小生成树}{164}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {四}特殊性质 A：所有乡镇都可以免费接入}{164}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {五}Case 1--8：枚举改造哪些乡镇}{167}{subsection.6.2.5}%
+\contentsline {subsection}{\numberline {六}Case 1--20：先把原图浓缩成 MST}{168}{subsection.6.2.6}%
+\contentsline {subsection}{\numberline {七}满分解法：去掉循环内排序}{170}{subsection.6.2.7}%
+\contentsline {section}{\numberline {}T3. 谐音替换}{172}{section.6.3}%
+\contentsline {subsection}{\numberline {一}题意简析}{172}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{172}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {三}Case 1--5 + 特殊性质 A：暴力校验}{173}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {四}特殊性质 B：从字符串匹配退化为长度比较}{175}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {五}满分解法：从一维数组推广到 Trie 树}{178}{subsection.6.3.5}%
+\contentsline {subsection}{\numberline {六}AC 自动机的补充做法}{184}{subsection.6.3.6}%
+\contentsline {section}{\numberline {}T4. 员工招聘}{187}{section.6.4}%
+\contentsline {subsection}{\numberline {一}题意简析}{187}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {二}从题面到模型}{187}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {三}Case 1--5：状压 DP}{187}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {四}Case 15：全员录用}{189}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {五}Case 12--14：至少录用一人}{190}{subsection.6.4.5}%
+\contentsline {subsection}{\numberline {六}特殊性质 A：容斥 DP 的核心模型}{191}{subsection.6.4.6}%
+\contentsline {subsection}{\numberline {七}满分解法：在容斥 DP 中加入困难日}{197}{subsection.6.4.7}%
