@@ -82,6 +82,8 @@ $0 \xrightarrow{a_1=9} 1 \xrightarrow{a_2=9} 2 \xrightarrow{a_3=8} 3 \xrightarro
 
 ### 【数据范围】
 
+本题采用测试点捆绑，同一行中的测试点作为一个测试点组计分。
+
 对于所有测试数据，保证：
 
 - $1 \leq t \leq 5 \times 10^4$；
@@ -89,10 +91,10 @@ $0 \xrightarrow{a_1=9} 1 \xrightarrow{a_2=9} 2 \xrightarrow{a_3=8} 3 \xrightarro
 - $1 \leq a_i \leq n$；
 - 所有测试用例的 $n$ 之和不超过 $3 \times 10^5$。
 
-| 测试点编号 | $n \leq$ | 特殊性质 |
-| :--: | :--: | :--: |
-| $1 \sim 2$ | $3 \times 10^5$ | A |
-| $3 \sim 6$ | $\sum n \leq 1000$ | 无 |
-| $7 \sim 20$ | $3 \times 10^5$ | 无 |
+| 子任务 | 分值 | $n \leq$ | 特殊性质 |
+| :--: | :--: | :--: | :--: |
+| $1 \sim 2$ | $10$ | $3 \times 10^5$ | A |
+| $3 \sim 6$ | $20$ | $1000$ | 无 |
+| $7 \sim 20$ | $70$ | $3 \times 10^5$ | 无 |
 
 特殊性质 A：对于所有 $1 \leq i \leq n$，均有 $a_i=i$。
