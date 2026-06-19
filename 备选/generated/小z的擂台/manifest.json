@@ -1,0 +1,246 @@
+{
+  "problem": "小z的擂台",
+  "seed": 20260619,
+  "cases": [
+    {
+      "idx": 1,
+      "group": "子任务1：小搜索",
+      "scale": "n=m=6",
+      "targets": "状态最短路、互克/同归",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：小搜索",
+      "scale": "n=m=6",
+      "targets": "状态最短路、互克/同归",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：无克制关系",
+      "scale": "n=100000,m=60000",
+      "targets": "答案 m",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：无克制关系",
+      "scale": "n=100000,m=60000",
+      "targets": "答案 m",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：试炼全相同",
+      "scale": "m=80000",
+      "targets": "C_y 空/非空",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：试炼全相同",
+      "scale": "m=80000",
+      "targets": "C_y 空/非空",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务4：s_i<=1",
+      "scale": "n=50000,m=70000",
+      "targets": "唯一连续击败区间",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务4：s_i<=1",
+      "scale": "n=50000,m=70000",
+      "targets": "唯一连续击败区间",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：s_i<=1",
+      "scale": "n=50000,m=70000",
+      "targets": "唯一连续击败区间",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务5：n,m<=2000",
+      "scale": "n=m=2000",
+      "targets": "O(nm) 最短路边界",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务5：n,m<=2000",
+      "scale": "n=m=2000",
+      "targets": "O(nm) 最短路边界",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务5：n,m<=2000",
+      "scale": "n=m=2000",
+      "targets": "O(nm) 最短路边界",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务6：m<=5000,k<=5",
+      "scale": "n=100000,m=5000",
+      "targets": "直接向后扫描可过",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务6：m<=5000,k<=5",
+      "scale": "n=100000,m=5000",
+      "targets": "直接向后扫描可过",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务6：m<=5000,k<=5",
+      "scale": "n=100000,m=5000",
+      "targets": "直接向后扫描可过",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务7：互相克制",
+      "scale": "n=40000,m=70000",
+      "targets": "不会被单方面击倒",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务7：互相克制",
+      "scale": "n=40000,m=70000",
+      "targets": "不会被单方面击倒",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务7：互相克制",
+      "scale": "n=40000,m=70000",
+      "targets": "不会被单方面击倒",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务8：试炼种类<=30",
+      "scale": "m=80000",
+      "targets": "出现种类压缩、首个不可克制",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务8：试炼种类<=30",
+      "scale": "m=80000",
+      "targets": "出现种类压缩、首个不可克制",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "子任务8：试炼种类<=30",
+      "scale": "m=80000",
+      "targets": "出现种类压缩、首个不可克制",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "子任务8：试炼种类<=30",
+      "scale": "m=80000",
+      "targets": "出现种类压缩、首个不可克制",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=100000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ]
+}

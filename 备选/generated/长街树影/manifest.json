@@ -1,0 +1,246 @@
+{
+  "problem": "长街树影",
+  "seed": 20260619,
+  "cases": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=200",
+      "scale": "n=200",
+      "targets": "暴力面积、全覆盖/遮挡",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=200",
+      "scale": "n=200",
+      "targets": "暴力面积、全覆盖/遮挡",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：n,d<=3000",
+      "scale": "n=3000",
+      "targets": "离散单位区间",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：n,d<=3000",
+      "scale": "n=3000",
+      "targets": "离散单位区间",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务2：n,d<=3000",
+      "scale": "n=3000",
+      "targets": "离散单位区间",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：i+d_i 单调不降",
+      "scale": "n=120000",
+      "targets": "每棵树露出、后缀公式",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：i+d_i 单调不降",
+      "scale": "n=120000",
+      "targets": "每棵树露出、后缀公式",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：i+d_i 单调不降",
+      "scale": "n=120000",
+      "targets": "每棵树露出、后缀公式",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：i+d_i 单调不增",
+      "scale": "n=120000",
+      "targets": "最左树覆盖后缀",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：i+d_i 单调不增",
+      "scale": "n=120000",
+      "targets": "最左树覆盖后缀",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：i+d_i 单调不增",
+      "scale": "n=120000",
+      "targets": "最左树覆盖后缀",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：i+d_i 单调不增",
+      "scale": "n=120000",
+      "targets": "最左树覆盖后缀",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：d_i<=20",
+      "scale": "n=200000",
+      "targets": "短影子局部维护",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：d_i<=20",
+      "scale": "n=200000",
+      "targets": "短影子局部维护",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：d_i<=20",
+      "scale": "n=200000",
+      "targets": "短影子局部维护",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：d_i<=20",
+      "scale": "n=200000",
+      "targets": "短影子局部维护",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务5：d_i<=20",
+      "scale": "n=200000",
+      "targets": "短影子局部维护",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=300000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ]
+}

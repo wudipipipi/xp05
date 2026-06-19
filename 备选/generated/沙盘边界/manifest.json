@@ -1,0 +1,246 @@
+{
+  "problem": "沙盘边界",
+  "seed": 20260619,
+  "cases": [
+    {
+      "idx": 1,
+      "group": "子任务1：n,m<=200",
+      "scale": "n=m=200",
+      "targets": "直接模拟、严格大于 h",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n,m<=200",
+      "scale": "n=m=200",
+      "targets": "直接模拟、严格大于 h",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：f=1",
+      "scale": "n=200000,m=100000",
+      "targets": "点计数、早爆/不爆",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：f=1",
+      "scale": "n=200000,m=100000",
+      "targets": "点计数、早爆/不爆",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务2：f=1",
+      "scale": "n=200000,m=100000",
+      "targets": "点计数、早爆/不爆",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：同中心",
+      "scale": "n=100000,m=120000",
+      "targets": "只看中心前缀和",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：同中心",
+      "scale": "n=100000,m=120000",
+      "targets": "只看中心前缀和",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：同中心",
+      "scale": "n=100000,m=120000",
+      "targets": "只看中心前缀和",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：每次覆盖全沙盘",
+      "scale": "n=80000,m=80000",
+      "targets": "中位数距离和",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：每次覆盖全沙盘",
+      "scale": "n=80000,m=80000",
+      "targets": "中位数距离和",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：每次覆盖全沙盘",
+      "scale": "n=80000,m=80000",
+      "targets": "中位数距离和",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：每次覆盖全沙盘",
+      "scale": "n=80000,m=80000",
+      "targets": "中位数距离和",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：f<=50",
+      "scale": "n=200000,m=160000",
+      "targets": "局部枚举、边界截断",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：f<=50",
+      "scale": "n=200000,m=160000",
+      "targets": "局部枚举、边界截断",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：f<=50",
+      "scale": "n=200000,m=160000",
+      "targets": "局部枚举、边界截断",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：f<=50",
+      "scale": "n=200000,m=160000",
+      "targets": "局部枚举、边界截断",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务6：若爆则在最后",
+      "scale": "n=60000,m=60000",
+      "targets": "只判最终、最后强压",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务6：若爆则在最后",
+      "scale": "n=60000,m=60000",
+      "targets": "只判最终、最后强压",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务6：若爆则在最后",
+      "scale": "n=60000,m=60000",
+      "targets": "只判最终、最后强压",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务6：若爆则在最后",
+      "scale": "n=60000,m=60000",
+      "targets": "只判最终、最后强压",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "子任务6：若爆则在最后",
+      "scale": "n=60000,m=60000",
+      "targets": "只判最终、最后强压",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=120000,m=120000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ]
+}

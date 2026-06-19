@@ -1,0 +1,3552 @@
+{
+  "数字橱窗": [
+    {
+      "idx": 1,
+      "group": "子任务1：小 t、小跨度",
+      "scale": "t=20,r-l<=1e5",
+      "targets": "暴力边界、跨位数字典序",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：小 t、小跨度",
+      "scale": "t=20,r-l<=1e5",
+      "targets": "暴力边界、跨位数字典序",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：短区间",
+      "scale": "t=12000,r-l<10",
+      "targets": "最大数码不一定为 9",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：短区间",
+      "scale": "t=12000,r-l<10",
+      "targets": "最大数码不一定为 9",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务2：短区间",
+      "scale": "t=12000,r-l<10",
+      "targets": "最大数码不一定为 9",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：同位数",
+      "scale": "t=16000",
+      "targets": "同位数字典序=数值序、无 9 区间",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：同位数",
+      "scale": "t=16000",
+      "targets": "同位数字典序=数值序、无 9 区间",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：同位数",
+      "scale": "t=16000",
+      "targets": "同位数字典序=数值序、无 9 区间",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务3：同位数",
+      "scale": "t=16000",
+      "targets": "同位数字典序=数值序、无 9 区间",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：同位且含 9",
+      "scale": "t=16000",
+      "targets": "构造第一个含 9、边界含 9",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：同位且含 9",
+      "scale": "t=16000",
+      "targets": "构造第一个含 9、边界含 9",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：同位且含 9",
+      "scale": "t=16000",
+      "targets": "构造第一个含 9、边界含 9",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务4：同位且含 9",
+      "scale": "t=16000",
+      "targets": "构造第一个含 9、边界含 9",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：跨度至少 10",
+      "scale": "t=20000",
+      "targets": "最大值恒 9、跨位字典序",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：跨度至少 10",
+      "scale": "t=20000",
+      "targets": "最大值恒 9、跨位字典序",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：跨度至少 10",
+      "scale": "t=20000",
+      "targets": "最大值恒 9、跨位字典序",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务5：跨度至少 10",
+      "scale": "t=20000",
+      "targets": "最大值恒 9、跨位字典序",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务5：跨度至少 10",
+      "scale": "t=20000",
+      "targets": "最大值恒 9、跨位字典序",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：混合大数据",
+      "scale": "t=24000",
+      "targets": "跨位字典序、近 1e9、短长混杂",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "记忆窗口": [
+    {
+      "idx": 1,
+      "group": "子任务1：q<=200",
+      "scale": "q=181",
+      "targets": "线性模拟、删除与压缩交错",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：q<=200",
+      "scale": "q=181",
+      "targets": "线性模拟、删除与压缩交错",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：不触发维护",
+      "scale": "q=30000",
+      "targets": "只维护哈希、查询旧 id",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：不触发维护",
+      "scale": "q=30000",
+      "targets": "只维护哈希、查询旧 id",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：同 r 且 id 递增",
+      "scale": "q=36000",
+      "targets": "压缩队列、删除队列懒删除",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：同 r 且 id 递增",
+      "scale": "q=36000",
+      "targets": "压缩队列、删除队列懒删除",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：同 r 且 id 递增",
+      "scale": "q=36000",
+      "targets": "压缩队列、删除队列懒删除",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：同 r 且 id 递增",
+      "scale": "q=36000",
+      "targets": "压缩队列、删除队列懒删除",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：只压缩不删除",
+      "scale": "q=70000",
+      "targets": "set 取最小、t=1/偶奇压缩",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：只压缩不删除",
+      "scale": "q=70000",
+      "targets": "set 取最小、t=1/偶奇压缩",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：只压缩不删除",
+      "scale": "q=70000",
+      "targets": "set 取最小、t=1/偶奇压缩",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：只压缩不删除",
+      "scale": "q=70000",
+      "targets": "set 取最小、t=1/偶奇压缩",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=9933",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=5880",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=15300",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=12891",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=6518",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=16957",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=17254",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=9314",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=11776",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=11770",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "小W的数盒": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=8",
+      "scale": "T=20,n<=8, total_n=100",
+      "targets": "枚举合并顺序、n=1",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=8",
+      "scale": "T=20,n<=8, total_n=71",
+      "targets": "枚举合并顺序、n=1",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：全奇数",
+      "scale": "多组，总 n 约 3e5, total_n=334747",
+      "targets": "答案 n-1、忽略原值",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：全奇数",
+      "scale": "多组，总 n 约 3e5, total_n=295982",
+      "targets": "答案 n-1、忽略原值",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：lowbit 相同",
+      "scale": "多组大 n, total_n=223097",
+      "targets": "同权合并公式",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：lowbit 相同",
+      "scale": "多组大 n, total_n=272820",
+      "targets": "同权合并公式",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：lowbit 相同",
+      "scale": "多组大 n, total_n=237907",
+      "targets": "同权合并公式",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务4：lowbit 两两不同",
+      "scale": "最多 30 种权值, total_n=440",
+      "targets": "最小权并入所有其它权",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：lowbit 两两不同",
+      "scale": "最多 30 种权值, total_n=326",
+      "targets": "最小权并入所有其它权",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：lowbit 两两不同",
+      "scale": "最多 30 种权值, total_n=403",
+      "targets": "最小权并入所有其它权",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：lowbit 两两不同",
+      "scale": "最多 30 种权值, total_n=341",
+      "targets": "最小权并入所有其它权",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务5：至多两种权值",
+      "scale": "多组，总 n 大, total_n=344484",
+      "targets": "两类计数、退化一类",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：至多两种权值",
+      "scale": "多组，总 n 大, total_n=280586",
+      "targets": "两类计数、退化一类",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：至多两种权值",
+      "scale": "多组，总 n 大, total_n=315185",
+      "targets": "两类计数、退化一类",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：至多两种权值",
+      "scale": "多组，总 n 大, total_n=308873",
+      "targets": "两类计数、退化一类",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务6：ai<=2^16",
+      "scale": "多组，总 n 大, total_n=220576",
+      "targets": "小值域数组统计",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务6：ai<=2^16",
+      "scale": "多组，总 n 大, total_n=200952",
+      "targets": "小值域数组统计",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务6：ai<=2^16",
+      "scale": "多组，总 n 大, total_n=174338",
+      "targets": "小值域数组统计",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务6：ai<=2^16",
+      "scale": "多组，总 n 大, total_n=198569",
+      "targets": "小值域数组统计",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务6：ai<=2^16",
+      "scale": "多组，总 n 大, total_n=207887",
+      "targets": "小值域数组统计",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=207976",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=224107",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=264485",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=205831",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=229877",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=235432",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=236393",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=250717",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=276784",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=246361",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "黑板擦痕": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=20",
+      "scale": "T=20",
+      "targets": "暴力方案数、全擦/不擦",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=20",
+      "scale": "T=20",
+      "targets": "暴力方案数、全擦/不擦",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：全 0",
+      "scale": "大 n",
+      "targets": "2^(n-1)、零的独立性",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：全 0",
+      "scale": "大 n",
+      "targets": "2^(n-1)、零的独立性",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：0 或单 bit",
+      "scale": "n=60000",
+      "targets": "重复单 bit、零穿插",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：0 或单 bit",
+      "scale": "n=60000",
+      "targets": "重复单 bit、零穿插",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：0 或单 bit",
+      "scale": "n=60000",
+      "targets": "重复单 bit、零穿插",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：0 或单 bit",
+      "scale": "n=60000",
+      "targets": "重复单 bit、零穿插",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：n<=5000",
+      "scale": "n=5000",
+      "targets": "二次 DP 边界、早停",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：n<=5000",
+      "scale": "n=5000",
+      "targets": "二次 DP 边界、早停",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：n<=5000",
+      "scale": "n=5000",
+      "targets": "二次 DP 边界、早停",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：n<=5000",
+      "scale": "n=5000",
+      "targets": "二次 DP 边界、早停",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：ai<2^12",
+      "scale": "n=90000",
+      "targets": "mask DP 状态碰撞、零重复",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：ai<2^12",
+      "scale": "n=90000",
+      "targets": "mask DP 状态碰撞、零重复",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：ai<2^12",
+      "scale": "n=90000",
+      "targets": "mask DP 状态碰撞、零重复",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：ai<2^12",
+      "scale": "n=90000",
+      "targets": "mask DP 状态碰撞、零重复",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务5：ai<2^12",
+      "scale": "n=90000",
+      "targets": "mask DP 状态碰撞、零重复",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务5：ai<2^12",
+      "scale": "n=90000",
+      "targets": "mask DP 状态碰撞、零重复",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：31 位混合",
+      "scale": "n=120000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：31 位混合",
+      "scale": "n=200000",
+      "targets": "双指针删位、高位、密集冲突",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "友好区间的抉择": [
+    {
+      "idx": 1,
+      "group": "测试点1-4：小规模",
+      "scale": "n=q=100",
+      "targets": "暴力枚举校验、零与冲突",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "测试点1-4：小规模",
+      "scale": "n=q=100",
+      "targets": "暴力枚举校验、零与冲突",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "测试点1-4：小规模",
+      "scale": "n=q=100",
+      "targets": "暴力枚举校验、零与冲突",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "测试点1-4：小规模",
+      "scale": "n=q=100",
+      "targets": "暴力枚举校验、零与冲突",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "测试点5-8：n,q<=2000",
+      "scale": "n=q=2000",
+      "targets": "二次算法边界",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "测试点5-8：n,q<=2000",
+      "scale": "n=q=2000",
+      "targets": "二次算法边界",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "测试点5-8：n,q<=2000",
+      "scale": "n=q=2000",
+      "targets": "二次算法边界",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "测试点5-8：n,q<=2000",
+      "scale": "n=q=2000",
+      "targets": "二次算法边界",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "测试点9-12：无 0",
+      "scale": "n=q=60000",
+      "targets": "非零密集、合法段长度受限",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "测试点9-12：无 0",
+      "scale": "n=q=60000",
+      "targets": "非零密集、合法段长度受限",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "测试点9-12：无 0",
+      "scale": "n=q=60000",
+      "targets": "非零密集、合法段长度受限",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "测试点9-12：无 0",
+      "scale": "n=q=60000",
+      "targets": "非零密集、合法段长度受限",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "测试点13-16：ai<=1",
+      "scale": "n=q=80000",
+      "targets": "大量 0、重复 bit 1",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "测试点13-16：ai<=1",
+      "scale": "n=q=80000",
+      "targets": "大量 0、重复 bit 1",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "测试点13-16：ai<=1",
+      "scale": "n=q=80000",
+      "targets": "大量 0、重复 bit 1",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "测试点13-16：ai<=1",
+      "scale": "n=q=80000",
+      "targets": "大量 0、重复 bit 1",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "满分：全范围",
+      "scale": "n=q=100000",
+      "targets": "二分分界、前缀和、长零带",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "满分：全范围",
+      "scale": "n=q=100000",
+      "targets": "二分分界、前缀和、长零带",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "满分：全范围",
+      "scale": "n=q=100000",
+      "targets": "二分分界、前缀和、长零带",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "满分：全范围",
+      "scale": "n=q=200000",
+      "targets": "二分分界、前缀和、长零带",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    }
+  ],
+  "老城糕色": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=18",
+      "scale": "n=18",
+      "targets": "枚举集合、端点大范围",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=18",
+      "scale": "n=18",
+      "targets": "枚举集合、端点大范围",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：m=1",
+      "scale": "n=1e5,k=1e12",
+      "targets": "最佳单点靠中、端点",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：m=1",
+      "scale": "n=1e5,k=1e12",
+      "targets": "最佳单点靠中、端点",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：可买全部不同色泽",
+      "scale": "unique=20000",
+      "targets": "去重、相邻最大缝",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：可买全部不同色泽",
+      "scale": "unique=20000",
+      "targets": "去重、相邻最大缝",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：可买全部不同色泽",
+      "scale": "unique=20000",
+      "targets": "去重、相邻最大缝",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务4：k<=5000",
+      "scale": "n=80000,k=5000",
+      "targets": "值域覆盖、重复色泽",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：k<=5000",
+      "scale": "n=80000,k=5000",
+      "targets": "值域覆盖、重复色泽",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：k<=5000",
+      "scale": "n=80000,k=5000",
+      "targets": "值域覆盖、重复色泽",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：k<=5000",
+      "scale": "n=80000,k=5000",
+      "targets": "值域覆盖、重复色泽",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务5：n<=5000,m=2",
+      "scale": "n=5000",
+      "targets": "双点最优、左右端点",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：n<=5000,m=2",
+      "scale": "n=5000",
+      "targets": "双点最优、左右端点",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：n<=5000,m=2",
+      "scale": "n=5000",
+      "targets": "双点最优、左右端点",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：n<=5000,m=2",
+      "scale": "n=5000",
+      "targets": "双点最优、左右端点",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务6：n<=500",
+      "scale": "n=500",
+      "targets": "DP 转移与二分交叉验证",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务6：n<=500",
+      "scale": "n=500",
+      "targets": "DP 转移与二分交叉验证",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务6：n<=500",
+      "scale": "n=500",
+      "targets": "DP 转移与二分交叉验证",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务6：n<=500",
+      "scale": "n=500",
+      "targets": "DP 转移与二分交叉验证",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "满分：大 n 大 k",
+      "scale": "n=180000,m=71480",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：大 n 大 k",
+      "scale": "n=180000,m=1118",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：大 n 大 k",
+      "scale": "n=180000,m=72572",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：大 n 大 k",
+      "scale": "n=180000,m=1523",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：大 n 大 k",
+      "scale": "n=180000,m=130714",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：大 n 大 k",
+      "scale": "n=180000,m=633",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：大 n 大 k",
+      "scale": "n=180000,m=139056",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：大 n 大 k",
+      "scale": "n=180000,m=1363",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：大 n 大 k",
+      "scale": "n=180000,m=179626",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：大 n 大 k",
+      "scale": "n=180000,m=256",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：大 n 大 k",
+      "scale": "n=500000,m=121912",
+      "targets": "贪心最远覆盖、重复与端点缺口",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "缺页教典": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=20",
+      "scale": "n=20",
+      "targets": "暴力删除区间、奇偶长度",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=20",
+      "scale": "n=20",
+      "targets": "暴力删除区间、奇偶长度",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：n<=3000",
+      "scale": "n=3000",
+      "targets": "O(n^2) 边界、64 位",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：n<=3000",
+      "scale": "n=3000",
+      "targets": "O(n^2) 边界、64 位",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务2：n<=3000",
+      "scale": "n=3000",
+      "targets": "O(n^2) 边界、64 位",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务2：n<=3000",
+      "scale": "n=3000",
+      "targets": "O(n^2) 边界、64 位",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：ai=1",
+      "scale": "n=200000",
+      "targets": "两种前缀值、组合计数",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：ai=1",
+      "scale": "n=200000",
+      "targets": "两种前缀值、组合计数",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：ai<=10",
+      "scale": "n=200000",
+      "targets": "数组频次范围、负前缀",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：ai<=10",
+      "scale": "n=200000",
+      "targets": "数组频次范围、负前缀",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：ai<=10",
+      "scale": "n=200000",
+      "targets": "数组频次范围、负前缀",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：ai<=10",
+      "scale": "n=200000",
+      "targets": "数组频次范围、负前缀",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：性质 A",
+      "scale": "n=180000,|k|很大",
+      "targets": "不可能分支、哈希只算一类",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：性质 A",
+      "scale": "n=180000,|k|很大",
+      "targets": "不可能分支、哈希只算一类",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：性质 A",
+      "scale": "n=180000,|k|很大",
+      "targets": "不可能分支、哈希只算一类",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：性质 A",
+      "scale": "n=180000,|k|很大",
+      "targets": "不可能分支、哈希只算一类",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务5：性质 A",
+      "scale": "n=180000,|k|很大",
+      "targets": "不可能分支、哈希只算一类",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务6：不同 P<=30",
+      "scale": "n=180000",
+      "targets": "低种类前缀、i<j 扫描",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务6：不同 P<=30",
+      "scale": "n=180000",
+      "targets": "低种类前缀、i<j 扫描",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务6：不同 P<=30",
+      "scale": "n=180000",
+      "targets": "低种类前缀、i<j 扫描",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "子任务6：不同 P<=30",
+      "scale": "n=180000",
+      "targets": "低种类前缀、i<j 扫描",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：全范围",
+      "scale": "n=200000",
+      "targets": "哈希 64 位、同/异奇偶同时计数",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：全范围",
+      "scale": "n=200000",
+      "targets": "哈希 64 位、同/异奇偶同时计数",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：全范围",
+      "scale": "n=200000",
+      "targets": "哈希 64 位、同/异奇偶同时计数",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：全范围",
+      "scale": "n=200000",
+      "targets": "哈希 64 位、同/异奇偶同时计数",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：全范围",
+      "scale": "n=200000",
+      "targets": "哈希 64 位、同/异奇偶同时计数",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：全范围",
+      "scale": "n=200000",
+      "targets": "哈希 64 位、同/异奇偶同时计数",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：全范围",
+      "scale": "n=200000",
+      "targets": "哈希 64 位、同/异奇偶同时计数",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：全范围",
+      "scale": "n=200000",
+      "targets": "哈希 64 位、同/异奇偶同时计数",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：全范围",
+      "scale": "n=200000",
+      "targets": "哈希 64 位、同/异奇偶同时计数",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "最后一包馍片": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=20",
+      "scale": "n=20",
+      "targets": "枚举扔/不扔",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=20",
+      "scale": "n=20",
+      "targets": "枚举扔/不扔",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：全相等",
+      "scale": "n=30000",
+      "targets": "答案恒 n",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：全相等",
+      "scale": "n=30000",
+      "targets": "答案恒 n",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：n<=2000",
+      "scale": "n=1200",
+      "targets": "O(n^2) DP 边界",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：n<=2000",
+      "scale": "n=1200",
+      "targets": "O(n^2) DP 边界",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：n<=2000",
+      "scale": "n=1200",
+      "targets": "O(n^2) DP 边界",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：n<=2000",
+      "scale": "n=1200",
+      "targets": "O(n^2) DP 边界",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：相邻贡献全 4",
+      "scale": "n=35000",
+      "targets": "理论上界 5n-4",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：相邻贡献全 4",
+      "scale": "n=35000",
+      "targets": "理论上界 5n-4",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：相邻贡献全 4",
+      "scale": "n=35000",
+      "targets": "理论上界 5n-4",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：相邻贡献全 4",
+      "scale": "n=35000",
+      "targets": "理论上界 5n-4",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：单调不降",
+      "scale": "n=35000",
+      "targets": "3^5 分配、重复味道",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：单调不降",
+      "scale": "n=35000",
+      "targets": "3^5 分配、重复味道",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：单调不降",
+      "scale": "n=35000",
+      "targets": "3^5 分配、重复味道",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：单调不降",
+      "scale": "n=35000",
+      "targets": "3^5 分配、重复味道",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务5：单调不降",
+      "scale": "n=35000",
+      "targets": "3^5 分配、重复味道",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=25000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：状态压缩 DP",
+      "scale": "n=60000",
+      "targets": "两段连接贡献、空段/非空段",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "沙盘边界": [
+    {
+      "idx": 1,
+      "group": "子任务1：n,m<=200",
+      "scale": "n=m=200",
+      "targets": "直接模拟、严格大于 h",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n,m<=200",
+      "scale": "n=m=200",
+      "targets": "直接模拟、严格大于 h",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：f=1",
+      "scale": "n=200000,m=100000",
+      "targets": "点计数、早爆/不爆",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：f=1",
+      "scale": "n=200000,m=100000",
+      "targets": "点计数、早爆/不爆",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务2：f=1",
+      "scale": "n=200000,m=100000",
+      "targets": "点计数、早爆/不爆",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：同中心",
+      "scale": "n=100000,m=120000",
+      "targets": "只看中心前缀和",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：同中心",
+      "scale": "n=100000,m=120000",
+      "targets": "只看中心前缀和",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：同中心",
+      "scale": "n=100000,m=120000",
+      "targets": "只看中心前缀和",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：每次覆盖全沙盘",
+      "scale": "n=80000,m=80000",
+      "targets": "中位数距离和",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：每次覆盖全沙盘",
+      "scale": "n=80000,m=80000",
+      "targets": "中位数距离和",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：每次覆盖全沙盘",
+      "scale": "n=80000,m=80000",
+      "targets": "中位数距离和",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：每次覆盖全沙盘",
+      "scale": "n=80000,m=80000",
+      "targets": "中位数距离和",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：f<=50",
+      "scale": "n=200000,m=160000",
+      "targets": "局部枚举、边界截断",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：f<=50",
+      "scale": "n=200000,m=160000",
+      "targets": "局部枚举、边界截断",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：f<=50",
+      "scale": "n=200000,m=160000",
+      "targets": "局部枚举、边界截断",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：f<=50",
+      "scale": "n=200000,m=160000",
+      "targets": "局部枚举、边界截断",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务6：若爆则在最后",
+      "scale": "n=60000,m=60000",
+      "targets": "只判最终、最后强压",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务6：若爆则在最后",
+      "scale": "n=60000,m=60000",
+      "targets": "只判最终、最后强压",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务6：若爆则在最后",
+      "scale": "n=60000,m=60000",
+      "targets": "只判最终、最后强压",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务6：若爆则在最后",
+      "scale": "n=60000,m=60000",
+      "targets": "只判最终、最后强压",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "子任务6：若爆则在最后",
+      "scale": "n=60000,m=60000",
+      "targets": "只判最终、最后强压",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=70000,m=70000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：二分 + 一次函数差分",
+      "scale": "n=120000,m=120000",
+      "targets": "早中晚爆、左右半三角拆分",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "长街树影": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=200",
+      "scale": "n=200",
+      "targets": "暴力面积、全覆盖/遮挡",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=200",
+      "scale": "n=200",
+      "targets": "暴力面积、全覆盖/遮挡",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：n,d<=3000",
+      "scale": "n=3000",
+      "targets": "离散单位区间",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：n,d<=3000",
+      "scale": "n=3000",
+      "targets": "离散单位区间",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务2：n,d<=3000",
+      "scale": "n=3000",
+      "targets": "离散单位区间",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：i+d_i 单调不降",
+      "scale": "n=120000",
+      "targets": "每棵树露出、后缀公式",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：i+d_i 单调不降",
+      "scale": "n=120000",
+      "targets": "每棵树露出、后缀公式",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：i+d_i 单调不降",
+      "scale": "n=120000",
+      "targets": "每棵树露出、后缀公式",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：i+d_i 单调不增",
+      "scale": "n=120000",
+      "targets": "最左树覆盖后缀",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：i+d_i 单调不增",
+      "scale": "n=120000",
+      "targets": "最左树覆盖后缀",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：i+d_i 单调不增",
+      "scale": "n=120000",
+      "targets": "最左树覆盖后缀",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：i+d_i 单调不增",
+      "scale": "n=120000",
+      "targets": "最左树覆盖后缀",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：d_i<=20",
+      "scale": "n=200000",
+      "targets": "短影子局部维护",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：d_i<=20",
+      "scale": "n=200000",
+      "targets": "短影子局部维护",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：d_i<=20",
+      "scale": "n=200000",
+      "targets": "短影子局部维护",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：d_i<=20",
+      "scale": "n=200000",
+      "targets": "短影子局部维护",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务5：d_i<=20",
+      "scale": "n=200000",
+      "targets": "短影子局部维护",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=140000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：单调队列外轮廓",
+      "scale": "n=300000",
+      "targets": "队首连续弹出、高 R 长遮挡",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "另一种顺序": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=8,ai<=100",
+      "scale": "T=10",
+      "targets": "排列暴力、全相同",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=8,ai<=100",
+      "scale": "T=10",
+      "targets": "排列暴力、全相同",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：n<=5000,ai<=1e4",
+      "scale": "T=10",
+      "targets": "枚举质因子 bitset",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：n<=5000,ai<=1e4",
+      "scale": "T=10",
+      "targets": "枚举质因子 bitset",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务2：n<=5000,ai<=1e4",
+      "scale": "T=10",
+      "targets": "枚举质因子 bitset",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务2：n<=5000,ai<=1e4",
+      "scale": "T=10",
+      "targets": "枚举质因子 bitset",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务2：n<=5000,ai<=1e4",
+      "scale": "T=10",
+      "targets": "枚举质因子 bitset",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务2：n<=5000,ai<=1e4",
+      "scale": "T=10",
+      "targets": "枚举质因子 bitset",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务3：不同值<=2",
+      "scale": "T=10",
+      "targets": "值为 1 的次数、两值退化",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务3：不同值<=2",
+      "scale": "T=10",
+      "targets": "值为 1 的次数、两值退化",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：归一后两两互质倾向",
+      "scale": "T=8",
+      "targets": "最多两个质因子覆盖",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：归一后两两互质倾向",
+      "scale": "T=8",
+      "targets": "最多两个质因子覆盖",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：同一质数幂",
+      "scale": "T=8",
+      "targets": "归一 1 的数量",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：同一质数幂",
+      "scale": "T=8",
+      "targets": "归一 1 的数量",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务6：1 或质数",
+      "scale": "T=8",
+      "targets": "出现最多两个质数",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务6：1 或质数",
+      "scale": "T=8",
+      "targets": "出现最多两个质数",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务6：1 或质数",
+      "scale": "T=8",
+      "targets": "出现最多两个质数",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务7：不同质因子<=20",
+      "scale": "T=8",
+      "targets": "mask 枚举两质数",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务7：不同质因子<=20",
+      "scale": "T=8",
+      "targets": "mask 枚举两质数",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务7：不同质因子<=20",
+      "scale": "T=8",
+      "targets": "mask 枚举两质数",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "子任务7：不同质因子<=20",
+      "scale": "T=8",
+      "targets": "mask 枚举两质数",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：候选质因子",
+      "scale": "T=8",
+      "targets": "前三个数候选、覆盖 n-1、NO 多互质",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：候选质因子",
+      "scale": "T=8",
+      "targets": "前三个数候选、覆盖 n-1、NO 多互质",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：候选质因子",
+      "scale": "T=8",
+      "targets": "前三个数候选、覆盖 n-1、NO 多互质",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：候选质因子",
+      "scale": "T=8",
+      "targets": "前三个数候选、覆盖 n-1、NO 多互质",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：候选质因子",
+      "scale": "T=8",
+      "targets": "前三个数候选、覆盖 n-1、NO 多互质",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：候选质因子",
+      "scale": "T=8",
+      "targets": "前三个数候选、覆盖 n-1、NO 多互质",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：候选质因子",
+      "scale": "T=8",
+      "targets": "前三个数候选、覆盖 n-1、NO 多互质",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：候选质因子",
+      "scale": "T=8",
+      "targets": "前三个数候选、覆盖 n-1、NO 多互质",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：候选质因子",
+      "scale": "T=8",
+      "targets": "前三个数候选、覆盖 n-1、NO 多互质",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "树上的旧色": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=15",
+      "scale": "n=15",
+      "targets": "状态图 BFS、任意树",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=15",
+      "scale": "n=15",
+      "targets": "状态图 BFS、任意树",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：链",
+      "scale": "n=200000",
+      "targets": "后缀递推、深递归风险",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：链",
+      "scale": "n=200000",
+      "targets": "后缀递推、深递归风险",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务2：链",
+      "scale": "n=200000",
+      "targets": "后缀递推、深递归风险",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：全 0",
+      "scale": "n=200000",
+      "targets": "答案 1、树形无关",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：全 0",
+      "scale": "n=200000",
+      "targets": "答案 1、树形无关",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务4：星形",
+      "scale": "n=200000",
+      "targets": "根颜色分支、叶子 2^cnt",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：星形",
+      "scale": "n=200000",
+      "targets": "根颜色分支、叶子 2^cnt",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：星形",
+      "scale": "n=200000",
+      "targets": "根颜色分支、叶子 2^cnt",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务5：全 1",
+      "scale": "n=200000",
+      "targets": "子树大小幂、乘积",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务5：全 1",
+      "scale": "n=200000",
+      "targets": "子树大小幂、乘积",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：全 1",
+      "scale": "n=200000",
+      "targets": "子树大小幂、乘积",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务6：高度<=2",
+      "scale": "n=200000",
+      "targets": "三层树、批量叶子",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务6：高度<=2",
+      "scale": "n=200000",
+      "targets": "三层树、批量叶子",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务6：高度<=2",
+      "scale": "n=200000",
+      "targets": "三层树、批量叶子",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务6：高度<=2",
+      "scale": "n=200000",
+      "targets": "三层树、批量叶子",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "满分：混合树形",
+      "scale": "n=120000,depth2",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "满分：混合树形",
+      "scale": "n=120000,depth2",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "满分：混合树形",
+      "scale": "n=120000,chain",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：混合树形",
+      "scale": "n=120000,depth2",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：混合树形",
+      "scale": "n=120000,depth2",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：混合树形",
+      "scale": "n=120000,binary",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：混合树形",
+      "scale": "n=120000,binary",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：混合树形",
+      "scale": "n=120000,depth2",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：混合树形",
+      "scale": "n=120000,binary",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：混合树形",
+      "scale": "n=120000,binary",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：混合树形",
+      "scale": "n=120000,chain",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：混合树形",
+      "scale": "n=120000,depth2",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：混合树形",
+      "scale": "n=200000,random",
+      "targets": "迭代 DFS、子树 DP、取模",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "小z的擂台": [
+    {
+      "idx": 1,
+      "group": "子任务1：小搜索",
+      "scale": "n=m=6",
+      "targets": "状态最短路、互克/同归",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：小搜索",
+      "scale": "n=m=6",
+      "targets": "状态最短路、互克/同归",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：无克制关系",
+      "scale": "n=100000,m=60000",
+      "targets": "答案 m",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：无克制关系",
+      "scale": "n=100000,m=60000",
+      "targets": "答案 m",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：试炼全相同",
+      "scale": "m=80000",
+      "targets": "C_y 空/非空",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：试炼全相同",
+      "scale": "m=80000",
+      "targets": "C_y 空/非空",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务4：s_i<=1",
+      "scale": "n=50000,m=70000",
+      "targets": "唯一连续击败区间",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务4：s_i<=1",
+      "scale": "n=50000,m=70000",
+      "targets": "唯一连续击败区间",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：s_i<=1",
+      "scale": "n=50000,m=70000",
+      "targets": "唯一连续击败区间",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务5：n,m<=2000",
+      "scale": "n=m=2000",
+      "targets": "O(nm) 最短路边界",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务5：n,m<=2000",
+      "scale": "n=m=2000",
+      "targets": "O(nm) 最短路边界",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务5：n,m<=2000",
+      "scale": "n=m=2000",
+      "targets": "O(nm) 最短路边界",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务6：m<=5000,k<=5",
+      "scale": "n=100000,m=5000",
+      "targets": "直接向后扫描可过",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务6：m<=5000,k<=5",
+      "scale": "n=100000,m=5000",
+      "targets": "直接向后扫描可过",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务6：m<=5000,k<=5",
+      "scale": "n=100000,m=5000",
+      "targets": "直接向后扫描可过",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务7：互相克制",
+      "scale": "n=40000,m=70000",
+      "targets": "不会被单方面击倒",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务7：互相克制",
+      "scale": "n=40000,m=70000",
+      "targets": "不会被单方面击倒",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务7：互相克制",
+      "scale": "n=40000,m=70000",
+      "targets": "不会被单方面击倒",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务8：试炼种类<=30",
+      "scale": "m=80000",
+      "targets": "出现种类压缩、首个不可克制",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务8：试炼种类<=30",
+      "scale": "m=80000",
+      "targets": "出现种类压缩、首个不可克制",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "子任务8：试炼种类<=30",
+      "scale": "m=80000",
+      "targets": "出现种类压缩、首个不可克制",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "子任务8：试炼种类<=30",
+      "scale": "m=80000",
+      "targets": "出现种类压缩、首个不可克制",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=80000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：DP + 连续段预处理",
+      "scale": "n=60000,m=100000,k=30",
+      "targets": "pos_x 连续段、单方面击倒转移",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "长廊信标": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=15",
+      "scale": "T=20",
+      "targets": "枚举初始集合、无解",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=15",
+      "scale": "T=20",
+      "targets": "枚举初始集合、无解",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：信标数<=k",
+      "scale": "n=100000,w=k=100",
+      "targets": "答案 0",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：信标数<=k",
+      "scale": "n=100000,w=k=100",
+      "targets": "答案 0",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：ai<=1",
+      "scale": "n=120000",
+      "targets": "连续段 ceil(len/(x+1))",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：ai<=1",
+      "scale": "n=120000",
+      "targets": "连续段 ceil(len/(x+1))",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：ai<=1",
+      "scale": "n=120000",
+      "targets": "连续段 ceil(len/(x+1))",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：ai<=1",
+      "scale": "n=120000",
+      "targets": "连续段 ceil(len/(x+1))",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：n<=3000",
+      "scale": "n=3000",
+      "targets": "逐秒推进 f^x",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：n<=3000",
+      "scale": "n=3000",
+      "targets": "逐秒推进 f^x",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：n<=3000",
+      "scale": "n=3000",
+      "targets": "逐秒推进 f^x",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：n<=3000",
+      "scale": "n=3000",
+      "targets": "逐秒推进 f^x",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：全正且 i+a_i 单调",
+      "scale": "n=150000",
+      "targets": "函数倍增特例",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：全正且 i+a_i 单调",
+      "scale": "n=150000",
+      "targets": "函数倍增特例",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：全正且 i+a_i 单调",
+      "scale": "n=150000",
+      "targets": "函数倍增特例",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：全正且 i+a_i 单调",
+      "scale": "n=150000",
+      "targets": "函数倍增特例",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务6：k=1",
+      "scale": "n=150000",
+      "targets": "最左信标唯一出发、停滞无解",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务6：k=1",
+      "scale": "n=150000",
+      "targets": "最左信标唯一出发、停滞无解",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务6：k=1",
+      "scale": "n=150000",
+      "targets": "最左信标唯一出发、停滞无解",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务6：k=1",
+      "scale": "n=150000",
+      "targets": "最左信标唯一出发、停滞无解",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：二分 + 倍增覆盖",
+      "scale": "n=180000",
+      "targets": "沉默塔、长跳、k 小/大",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：二分 + 倍增覆盖",
+      "scale": "n=180000",
+      "targets": "沉默塔、长跳、k 小/大",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：二分 + 倍增覆盖",
+      "scale": "n=180000",
+      "targets": "沉默塔、长跳、k 小/大",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：二分 + 倍增覆盖",
+      "scale": "n=180000",
+      "targets": "沉默塔、长跳、k 小/大",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：二分 + 倍增覆盖",
+      "scale": "n=180000",
+      "targets": "沉默塔、长跳、k 小/大",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：二分 + 倍增覆盖",
+      "scale": "n=180000",
+      "targets": "沉默塔、长跳、k 小/大",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：二分 + 倍增覆盖",
+      "scale": "n=180000",
+      "targets": "沉默塔、长跳、k 小/大",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：二分 + 倍增覆盖",
+      "scale": "n=180000",
+      "targets": "沉默塔、长跳、k 小/大",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：二分 + 倍增覆盖",
+      "scale": "n=180000",
+      "targets": "沉默塔、长跳、k 小/大",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：二分 + 倍增覆盖",
+      "scale": "n=500000",
+      "targets": "沉默塔、长跳、k 小/大",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ],
+  "林中问路": [
+    {
+      "idx": 1,
+      "group": "子任务1：n,q<=200",
+      "scale": "n=q=200",
+      "targets": "暴力路径、所有连续段",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n,q<=200",
+      "scale": "n=q=200",
+      "targets": "暴力路径、所有连续段",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：全 0",
+      "scale": "n=q=100000",
+      "targets": "路径长度公式、LCA",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：全 0",
+      "scale": "n=q=100000",
+      "targets": "路径长度公式、LCA",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：路径长<=500",
+      "scale": "n=q=10000",
+      "targets": "按路径双指针",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：路径长<=500",
+      "scale": "n=q=10000",
+      "targets": "按路径双指针",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：路径长<=500",
+      "scale": "n=q=10000",
+      "targets": "按路径双指针",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：路径长<=500",
+      "scale": "n=q=10000",
+      "targets": "按路径双指针",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：n<=5000",
+      "scale": "n=q=5000",
+      "targets": "预处理任意两点压力",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：n<=5000",
+      "scale": "n=q=5000",
+      "targets": "预处理任意两点压力",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：n<=5000",
+      "scale": "n=q=5000",
+      "targets": "预处理任意两点压力",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：n<=5000",
+      "scale": "n=q=5000",
+      "targets": "预处理任意两点压力",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务4：n<=5000",
+      "scale": "n=q=5000",
+      "targets": "预处理任意两点压力",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：链",
+      "scale": "n=30000,q=2500",
+      "targets": "区间询问、LCA 退化",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：链",
+      "scale": "n=30000,q=2500",
+      "targets": "区间询问、LCA 退化",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：链",
+      "scale": "n=30000,q=2500",
+      "targets": "区间询问、LCA 退化",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务5：链",
+      "scale": "n=30000,q=2500",
+      "targets": "区间询问、LCA 退化",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务5：链",
+      "scale": "n=30000,q=2500",
+      "targets": "区间询问、LCA 退化",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务5：链",
+      "scale": "n=30000,q=2500",
+      "targets": "区间询问、LCA 退化",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务5：链",
+      "scale": "n=30000,q=2500",
+      "targets": "区间询问、LCA 退化",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：一般树混合",
+      "scale": "n=4500,q=4500,random",
+      "targets": "跨 LCA、零压缩、非零>20 截断",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：一般树混合",
+      "scale": "n=4500,q=4500,random",
+      "targets": "跨 LCA、零压缩、非零>20 截断",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：一般树混合",
+      "scale": "n=4500,q=4500,star",
+      "targets": "跨 LCA、零压缩、非零>20 截断",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：一般树混合",
+      "scale": "n=4500,q=4500,star",
+      "targets": "跨 LCA、零压缩、非零>20 截断",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：一般树混合",
+      "scale": "n=4500,q=4500,random",
+      "targets": "跨 LCA、零压缩、非零>20 截断",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：一般树混合",
+      "scale": "n=4500,q=4500,random",
+      "targets": "跨 LCA、零压缩、非零>20 截断",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：一般树混合",
+      "scale": "n=4500,q=4500,binary",
+      "targets": "跨 LCA、零压缩、非零>20 截断",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：一般树混合",
+      "scale": "n=4500,q=4500,random",
+      "targets": "跨 LCA、零压缩、非零>20 截断",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：一般树混合",
+      "scale": "n=4500,q=4500,random",
+      "targets": "跨 LCA、零压缩、非零>20 截断",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：一般树混合",
+      "scale": "n=7000,q=7000,star",
+      "targets": "跨 LCA、零压缩、非零>20 截断",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ]
+}

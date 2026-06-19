@@ -1,0 +1,246 @@
+{
+  "problem": "记忆窗口",
+  "seed": 20260619,
+  "cases": [
+    {
+      "idx": 1,
+      "group": "子任务1：q<=200",
+      "scale": "q=181",
+      "targets": "线性模拟、删除与压缩交错",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：q<=200",
+      "scale": "q=181",
+      "targets": "线性模拟、删除与压缩交错",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：不触发维护",
+      "scale": "q=30000",
+      "targets": "只维护哈希、查询旧 id",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：不触发维护",
+      "scale": "q=30000",
+      "targets": "只维护哈希、查询旧 id",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：同 r 且 id 递增",
+      "scale": "q=36000",
+      "targets": "压缩队列、删除队列懒删除",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：同 r 且 id 递增",
+      "scale": "q=36000",
+      "targets": "压缩队列、删除队列懒删除",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：同 r 且 id 递增",
+      "scale": "q=36000",
+      "targets": "压缩队列、删除队列懒删除",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务3：同 r 且 id 递增",
+      "scale": "q=36000",
+      "targets": "压缩队列、删除队列懒删除",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：只压缩不删除",
+      "scale": "q=70000",
+      "targets": "set 取最小、t=1/偶奇压缩",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：只压缩不删除",
+      "scale": "q=70000",
+      "targets": "set 取最小、t=1/偶奇压缩",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：只压缩不删除",
+      "scale": "q=70000",
+      "targets": "set 取最小、t=1/偶奇压缩",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务4：只压缩不删除",
+      "scale": "q=70000",
+      "targets": "set 取最小、t=1/偶奇压缩",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务5：r<=30",
+      "scale": "q=50000",
+      "targets": "桶扫描、低等级密集、删除已压缩项",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=9933",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=5880",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=15300",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=12891",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=6518",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=16957",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=17254",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=9314",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=11776",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：混合维护",
+      "scale": "q=60000,W=11770",
+      "targets": "id 与加入顺序错位、懒删除、全压缩后删除",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ]
+}

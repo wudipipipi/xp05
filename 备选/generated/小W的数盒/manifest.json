@@ -1,0 +1,246 @@
+{
+  "problem": "小W的数盒",
+  "seed": 20260619,
+  "cases": [
+    {
+      "idx": 1,
+      "group": "子任务1：n<=8",
+      "scale": "T=20,n<=8, total_n=100",
+      "targets": "枚举合并顺序、n=1",
+      "in": "data/01.in",
+      "out": "data/01.out"
+    },
+    {
+      "idx": 2,
+      "group": "子任务1：n<=8",
+      "scale": "T=20,n<=8, total_n=71",
+      "targets": "枚举合并顺序、n=1",
+      "in": "data/02.in",
+      "out": "data/02.out"
+    },
+    {
+      "idx": 3,
+      "group": "子任务2：全奇数",
+      "scale": "多组，总 n 约 3e5, total_n=334747",
+      "targets": "答案 n-1、忽略原值",
+      "in": "data/03.in",
+      "out": "data/03.out"
+    },
+    {
+      "idx": 4,
+      "group": "子任务2：全奇数",
+      "scale": "多组，总 n 约 3e5, total_n=295982",
+      "targets": "答案 n-1、忽略原值",
+      "in": "data/04.in",
+      "out": "data/04.out"
+    },
+    {
+      "idx": 5,
+      "group": "子任务3：lowbit 相同",
+      "scale": "多组大 n, total_n=223097",
+      "targets": "同权合并公式",
+      "in": "data/05.in",
+      "out": "data/05.out"
+    },
+    {
+      "idx": 6,
+      "group": "子任务3：lowbit 相同",
+      "scale": "多组大 n, total_n=272820",
+      "targets": "同权合并公式",
+      "in": "data/06.in",
+      "out": "data/06.out"
+    },
+    {
+      "idx": 7,
+      "group": "子任务3：lowbit 相同",
+      "scale": "多组大 n, total_n=237907",
+      "targets": "同权合并公式",
+      "in": "data/07.in",
+      "out": "data/07.out"
+    },
+    {
+      "idx": 8,
+      "group": "子任务4：lowbit 两两不同",
+      "scale": "最多 30 种权值, total_n=440",
+      "targets": "最小权并入所有其它权",
+      "in": "data/08.in",
+      "out": "data/08.out"
+    },
+    {
+      "idx": 9,
+      "group": "子任务4：lowbit 两两不同",
+      "scale": "最多 30 种权值, total_n=326",
+      "targets": "最小权并入所有其它权",
+      "in": "data/09.in",
+      "out": "data/09.out"
+    },
+    {
+      "idx": 10,
+      "group": "子任务4：lowbit 两两不同",
+      "scale": "最多 30 种权值, total_n=403",
+      "targets": "最小权并入所有其它权",
+      "in": "data/10.in",
+      "out": "data/10.out"
+    },
+    {
+      "idx": 11,
+      "group": "子任务4：lowbit 两两不同",
+      "scale": "最多 30 种权值, total_n=341",
+      "targets": "最小权并入所有其它权",
+      "in": "data/11.in",
+      "out": "data/11.out"
+    },
+    {
+      "idx": 12,
+      "group": "子任务5：至多两种权值",
+      "scale": "多组，总 n 大, total_n=344484",
+      "targets": "两类计数、退化一类",
+      "in": "data/12.in",
+      "out": "data/12.out"
+    },
+    {
+      "idx": 13,
+      "group": "子任务5：至多两种权值",
+      "scale": "多组，总 n 大, total_n=280586",
+      "targets": "两类计数、退化一类",
+      "in": "data/13.in",
+      "out": "data/13.out"
+    },
+    {
+      "idx": 14,
+      "group": "子任务5：至多两种权值",
+      "scale": "多组，总 n 大, total_n=315185",
+      "targets": "两类计数、退化一类",
+      "in": "data/14.in",
+      "out": "data/14.out"
+    },
+    {
+      "idx": 15,
+      "group": "子任务5：至多两种权值",
+      "scale": "多组，总 n 大, total_n=308873",
+      "targets": "两类计数、退化一类",
+      "in": "data/15.in",
+      "out": "data/15.out"
+    },
+    {
+      "idx": 16,
+      "group": "子任务6：ai<=2^16",
+      "scale": "多组，总 n 大, total_n=220576",
+      "targets": "小值域数组统计",
+      "in": "data/16.in",
+      "out": "data/16.out"
+    },
+    {
+      "idx": 17,
+      "group": "子任务6：ai<=2^16",
+      "scale": "多组，总 n 大, total_n=200952",
+      "targets": "小值域数组统计",
+      "in": "data/17.in",
+      "out": "data/17.out"
+    },
+    {
+      "idx": 18,
+      "group": "子任务6：ai<=2^16",
+      "scale": "多组，总 n 大, total_n=174338",
+      "targets": "小值域数组统计",
+      "in": "data/18.in",
+      "out": "data/18.out"
+    },
+    {
+      "idx": 19,
+      "group": "子任务6：ai<=2^16",
+      "scale": "多组，总 n 大, total_n=198569",
+      "targets": "小值域数组统计",
+      "in": "data/19.in",
+      "out": "data/19.out"
+    },
+    {
+      "idx": 20,
+      "group": "子任务6：ai<=2^16",
+      "scale": "多组，总 n 大, total_n=207887",
+      "targets": "小值域数组统计",
+      "in": "data/20.in",
+      "out": "data/20.out"
+    },
+    {
+      "idx": 21,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=207976",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/21.in",
+      "out": "data/21.out"
+    },
+    {
+      "idx": 22,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=224107",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/22.in",
+      "out": "data/22.out"
+    },
+    {
+      "idx": 23,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=264485",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/23.in",
+      "out": "data/23.out"
+    },
+    {
+      "idx": 24,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=205831",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/24.in",
+      "out": "data/24.out"
+    },
+    {
+      "idx": 25,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=229877",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/25.in",
+      "out": "data/25.out"
+    },
+    {
+      "idx": 26,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=235432",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/26.in",
+      "out": "data/26.out"
+    },
+    {
+      "idx": 27,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=236393",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/27.in",
+      "out": "data/27.out"
+    },
+    {
+      "idx": 28,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=250717",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/28.in",
+      "out": "data/28.out"
+    },
+    {
+      "idx": 29,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=276784",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/29.in",
+      "out": "data/29.out"
+    },
+    {
+      "idx": 30,
+      "group": "满分：全范围混合",
+      "scale": "多组，总 n 约 4e5, total_n=246361",
+      "targets": "30 种权值、高位 lowbit、重复权值",
+      "in": "data/30.in",
+      "out": "data/30.out"
+    }
+  ]
+}
