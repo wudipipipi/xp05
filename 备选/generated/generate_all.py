@@ -165,7 +165,7 @@ def gen_digit_window():
         qs = []
         if idx <= 2:
             t = 20
-            fixed = [(1, 8), (15, 28), (98, 123), (500, 508), (10**8, 10**9)]
+            fixed = [(1, 8), (15, 28), (98, 123), (500, 508), (999900000, 10**9)]
             qs.extend(fixed)
             while len(qs) < t:
                 width = rng.randint(0, 100000)
@@ -181,7 +181,7 @@ def gen_digit_window():
         elif idx <= 9:
             t = 16000
             for _ in range(t):
-                length = rng.randint(1, 10)
+                length = rng.randint(1, 9)
                 lo = 1 if length == 1 else 10 ** (length - 1)
                 hi = 10**length - 1
                 l = rng.randint(lo, hi)
@@ -191,7 +191,7 @@ def gen_digit_window():
         elif idx <= 13:
             t = 16000
             for _ in range(t):
-                length = rng.randint(2, 10)
+                length = rng.randint(2, 9)
                 lo = 10 ** (length - 1)
                 hi = 10**length - 1
                 x = rng.randint(lo, hi)

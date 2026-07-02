@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Data Judge"
+  short_description: "Validate OI packages with local data"
+  default_prompt: "Use $local-data-judge to validate this local OI/CSP problem package and generate reports."
